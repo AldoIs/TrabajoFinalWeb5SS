@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Actividad Online</title>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Glosario de propiedades del CSS style</h1>
+    <nav>
+        <a href ="index.html">Biografía</a>
+        <a href ="glosario.html">Glosario</a>
+        <a href ="crud.html">CRUD</a>
+        <a href ="musica.html">Música</a>
+        <a href ="herramientas.html">Herramientas</a>
+    </nav>    
+  </header>
+      
+        <Br>   <Br> 
+      <h2 id="title" style="margin-top:0">Glosario</h2>
+            <Br>   <Br> 
+
+    <p class="lead">Abajo verás la lista de propiedades, su descripción y ejemplos de valor. También tenemos ejemplos visuales que usan esas mismas propiedades dentro del <code class="kv">&lt;style&gt;</code>.</p>
+
+
+<Br><Br>
+  <div class="container">
+ 
+    <section class="panel" aria-labelledby="glosario-title">
+
+      <table class="glossary" role="table" aria-describedby="glosario-title">
+        <thead>
+          <tr>
+            <th>Propiedad</th>
+            <th>Descripción</th>
+            <th>Ejemplo de valor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code class="kv">color</code></td>
+            <td>Color del texto.</td>
+            <td><code class="kv">blue</code>, <code class="kv">#0000FF</code>, <code class="kv">rgb(0, 0, 255)</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">border</code></td>
+            <td>Abreviatura para ancho, estilo y color del borde.</td>
+            <td><code class="kv">2px solid black</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">border-radius</code></td>
+            <td>Redondea las esquinas del borde.</td>
+            <td><code class="kv">10px</code>, <code class="kv">50%</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">margin</code></td>
+            <td>Espacio exterior alrededor del elemento.</td>
+            <td><code class="kv">10px 5px 10px 5px</code> (arriba, derecha, abajo, izquierda)</td>
+          </tr>
+          <tr>
+            <td><code class="kv">padding</code></td>
+            <td>Espacio interior entre el borde y el contenido.</td>
+            <td><code class="kv">padding-top: 10px;</code>, <code class="kv">padding: 12px;</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">text-align</code></td>
+            <td>Alineación horizontal del texto dentro del elemento.</td>
+            <td><code class="kv">center</code>, <code class="kv">justify</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">background-size</code></td>
+            <td>Tamaño de la imagen de fondo.</td>
+            <td><code class="kv">cover</code>, <code class="kv">contain</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">text-decoration</code></td>
+            <td>Efectos de subrayado, tachado u otras decoraciones del texto.</td>
+            <td><code class="kv">underline</code>, <code class="kv">line-through</code>, <code class="kv">none</code></td>
+          </tr>
+          <tr>
+            <td><code class="kv">float</code></td>
+            <td>Alinear un elemento a la izquierda o derecha, permitiendo que el texto lo rodee.</td>
+            <td><code class="kv">left</code>, <code class="kv">right</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel" aria-labelledby="ejemplos-title">
+      <h2 id="ejemplos-title" style="margin-top:0">Ejemplos visuales</h2>
+
+      <div class="examples">
+        <div class="example ex-color">
+          <strong>color (texto)</strong>
+          <div class="box-sample">Este texto usa <code class="kv">color: blue;</code></div>
+        </div>
+
+        <div class="example ex-border">
+          <strong>border (shorthand)</strong>
+          <div class="box-sample">Borde: <code class="kv">2px solid black</code></div>
+        </div>
+
+        <div class="example ex-bg">
+          <strong>background + color</strong>
+          <div class="box-sample">Fondo con degradado y texto centrado</div>
+        </div>
+
+        <div class="example ex-space">
+          <strong>margin / padding</strong>
+          <div class="box-sample">margin: <code class="kv">10px 5px 10px 5px</code> — padding aplicado</div>
+        </div>
+
+        <div class="example ex-bgimg">
+          <strong>background-size</strong>
+          <div class="box-sample">Imagen de fondo (background-size: cover)</div>
+        </div>
+
+        <div class="example ex-td">
+          <strong>text-decoration</strong>
+          <div class="box-sample">Texto con <code class="kv">text-decoration: underline</code></div>
+        </div>
+
+        <div class="example ex-float">
+          <strong>float</strong>
+          <div class="float-box">Float left</div>
+          <div class="box-sample" style="padding-top:6px;">
+            Este párrafo muestra cómo un pequeño bloque a la izquierda es ocupado por un elemento con <code class="kv">float:left</code> y el texto lo rodea.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer style="margin-top:18px;color:var(--gris);font-size:.9rem">
+      <p>Nota: Puedes dar click al menú para seguir navegando en la página"</p>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+  
+  </head>
